@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+#banner-container {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+#banner-container2 {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #f7f2f2;
+}
+
+}
+
+#banner-container2 img {
+  width: 100%;
+}
+
+#banner-container2 #ban2-col2 {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;}
+
+  #banner-container3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #c1bfbf;
+    justify-content: center;
+  }
+
+  #banner-container3 img {
+    width: 25%;
+  }
+
+
+  #banner-container4 {
+
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+  }
+
+  #banner-container4 #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 20%; 
+    height: 10%;
+  }
+
+/* #banner-container  {
+
+  display: flex;
+  background-color: #eaeaea;
+  flex-direction: column;
+  margin: 32px 24px;
+  
+}
+
+#banner-container #banner-container2-1 img {
+  width: 60%;
+}
+
+#banner-container #banner-container2-2 {
+  display: flex;
+  background-color: #eaeaea;
+  flex-direction: column;
+  margin: 32px 24px;
+  width: 40%;
+}
+
+#banner-container #banner-container2-2 img {
+  float: left;
+  width: 100%; */
+}
+ -------------
+
+#banner-container2 {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #f8f1f1;
+}
+
+
+#ban2-col1 {
+
+  flex-direction: column; 
+  
+}
+
+#ban2-col2 {
+  display: inline-block;
+  flex-direction: flex;
+  align-items: center;
+
+  
+}
+
+#banner-container2 #ban2-in {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+
+}
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+-----------------------
+
+#ban3 {
+  display: INLINE-BLOCK;
+  flex-direction: row;
+}
+
+#ban3 img{
+  width: 25%;
+  height: auto;
+}
+
